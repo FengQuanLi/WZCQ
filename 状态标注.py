@@ -5,7 +5,6 @@ import time, threading
 import cv2
 import torch
 import numpy as np
-from cv2显示图片 import 取随机始终点,坐标变换,cv2ImgAddText,求每步得分
 from 辅助功能 import 状态信息综合
 import torchvision
 from resnet_utils import myResnet
