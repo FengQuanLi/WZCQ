@@ -3,7 +3,13 @@
 一、这个项目由我之前的[AI玩王者荣耀](https://github.com/FengQuanLi/ResnetGPT) 项目发展而来。  
     较之前的项目有进步，也更加复杂。用了强化学习的训练方法，并增加了一个判断回报状态的神经网络。  
  ### 注意! 这个项目处于试验阶段，再加上本人水平有限，所以并不完善，问题很多。
-二、运行环境和我之前的项目相似，请参考之前的项目，但还需要添加 PyQt5模块用于截图，参考（requirements.txt）。    
+二、运行环境和我之前的项目相似，请参考之前的项目，但还需要添加 PyQt5模块用于截图参考（requirements.txt）。  
+环境配置参考视频 1  
+链接：https://pan.baidu.com/s/1fJRyX-scxbeOJ2lsddTLiA   
+提取码：msr5  
+环境配置参考视频 2（minitouch安装）    
+链接：https://pan.baidu.com/s/1V8VV24Q1U8ajLKXU9HJT2w     
+提取码：rid1  
 三、我用的显卡是gtx 1660 。根据以往经验，需要1060或以上算力的显卡。  
 四、需要一台打开安卓调试并能玩王者荣耀的手机，虚拟机也可行。  
 五、需要下载[scrcpy](https://github.com/Genymobile/scrcpy/blob/master/README.zh-Hans.md)  的windows版本。 把所有文件解压到项目根目录即可（这是我的笨办法） 。  
@@ -11,7 +17,9 @@
 六、pyminitouch库运行时会自动安装minitouch。如果无法自动安装则需要手动安装[minitouch](https://github.com/openstf/minitouch) ，比较麻烦。  
 还有，minitouch不支持Android10及以上系统  
 七、本人用的手机分辨率是1080*2160的，本代码并没有针对不同的手机做优化。不同的手机minitouch命令中所描述的位置会有差异，需要对代码做出相应调整，请务必注意。  
-八、注意游戏的布局（摇杆和按键移向两边）务必要一样，可参考B站视频[B站视频](https://www.bilibili.com/video/BV13V411W7aW) 。    
+八、注意游戏的布局（摇杆和按键移向两边）务必要一样，可参考B站视频[B站视频](https://www.bilibili.com/video/BV13V411W7aW) 。  
+
+  
 
 
 ## 运行游戏AI
