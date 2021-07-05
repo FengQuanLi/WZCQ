@@ -397,7 +397,7 @@ while True:
                 计数=计数+1
                 if i%3000==0:
                    # AI打开 = False
-                    import pygame
+                    #import pygame
 
                     # pygame.mixer.init()
                     # pygame.mixer.music.load('G:/AS.mp3')
