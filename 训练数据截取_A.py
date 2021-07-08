@@ -258,8 +258,8 @@ while True:
 
                 img = torch.from_numpy(img).cuda(device).unsqueeze(0).permute(0, 3, 2, 1) / 255
                 _,out = resnet101(img)
-                图片张量 = 图片张量[0:299, :]
-                操作序列=操作序列[0:299]
+                图片张量 = 图片张量[1:300, :]
+                操作序列=操作序列[1:300]
                 操作序列 = np.append(操作序列, 动作)
                 图片张量 = torch.cat((图片张量, out.reshape(1,6*6*2048)), 0)
 
