@@ -24,9 +24,9 @@
 
 ## 运行游戏AI
   
-一、首先下载主模型 你可以从[google云盘](https://drive.google.com/file/d/1oTlAKPwmmfs8BL2GIMqerayeO0dyXfmk/view?usp=sharing) 下载训练过的模型，也可以百度网盘下载  
-链接：https://pan.baidu.com/s/1RxkZXD17GCux6ixeCcX2kg   
-提取码：ez3d   
+一、首先下载主模型 你可以从[google云盘](https://drive.google.com/file/d/10NXGuEUYuRJyQvPN1kXxkBekoar3gwME/view?usp=sharing) 下载训练过的模型，也可以百度网盘下载  
+链接：https://pan.baidu.com/s/1ZMCierCZkskEsgjj_wwwyw   
+提取码：oiar   
 后放入weights文件夹下  
 注意！要加载不同的模型请 在 模型_策略梯度.py 261行更改。
 
