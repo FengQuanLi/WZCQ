@@ -258,7 +258,7 @@ class 智能体:
         self.熵系数=熵系数
         self.泛化优势估计参数L = 泛化优势估计参数L
         device = torch.device("cuda:0" if (torch.cuda.is_available()) else "cpu")
-        模型名称 = '模型_策略梯度_丙N'
+        模型名称 = '模型_策略梯度_丙TA'
 
         config = TransformerConfig()
         model = get_model(config, 130, 模型名称)
